@@ -1,19 +1,6 @@
 torchvision
 ===========
 
-.. image:: https://travis-ci.org/pytorch/vision.svg?branch=master
-    :target: https://travis-ci.org/pytorch/vision
-
-.. image:: https://codecov.io/gh/pytorch/vision/branch/master/graph/badge.svg
-    :target: https://codecov.io/gh/pytorch/vision
-
-.. image:: https://pepy.tech/badge/torchvision
-    :target: https://pepy.tech/project/torchvision
-
-.. image:: https://img.shields.io/badge/dynamic/json.svg?label=docs&url=https%3A%2F%2Fpypi.org%2Fpypi%2Ftorchvision%2Fjson&query=%24.info.version&colorB=brightgreen&prefix=v
-    :target: https://pytorch.org/docs/stable/torchvision/index.html
-
-
 The torchvision package consists of popular datasets, model architectures, and common image transformations for computer vision.
 
 Installation
@@ -72,18 +59,3 @@ Installation From source:
     cmake ..
     make 
     make install
-
-Documentation
-=============
-You can find the API documentation on the pytorch website: http://pytorch.org/docs/master/torchvision/
-
-Contributing
-============
-We appreciate all contributions. If you are planning to contribute back bug-fixes, please do so without any further discussion. If you plan to contribute new features, utility functions or extensions, please first open an issue and discuss the feature with us.
-
-Disclaimer on Datasets
-======================
-
-This is a utility library that downloads and prepares public datasets. We do not host or distribute these datasets, vouch for their quality or fairness, or claim that you have license to use the dataset. It is your responsibility to determine whether you have permission to use the dataset under the dataset's license.
-
-If you're a dataset owner and wish to update any part of it (description, citation, etc.), or do not want your dataset to be included in this library, please get in touch through a GitHub issue. Thanks for your contribution to the ML community!
